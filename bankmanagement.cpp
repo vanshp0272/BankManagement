@@ -27,7 +27,7 @@ public:
 void account::create_account()
 {
 	system("CLS");
-	cout<<"\n\t\t\tEnter the Account No. : ";
+	cout<<"Enter the Account No. : ";
 	cin>>acno;
 	cout<<"\n\n\t\t\tEnter the Name of the Account holder : ";
 	cin.ignore();
